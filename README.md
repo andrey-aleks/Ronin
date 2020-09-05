@@ -1,7 +1,7 @@
 # Ronin
 By Andrey Alekseev
 
-Non-commercial personal project.
+Non-commercial personal project created in Unity.
 
 You can watch `a gameplay video` by this link - https://yadi.sk/i/VcZUbhnRTdcN5w
 
