@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8880081163316717218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8880081163316717220}
+  - component: {fileID: 8880081163316717219}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8880081163316717220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880081163316717218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.213, y: -0.754, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8880081163316717219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880081163316717218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d62849df388a5d44bb4ebac3e0f52e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: mainTheme
+    clip: {fileID: 8300000, guid: 97fe391ea46935f4ebd7255bca94ec5d, type: 3}
+    volume: 0.53
+    pitch: 1
+    mixerGroup: {fileID: 7062175172118079553, guid: 648e1e43c5756a943a8c0d81685cde9a,
+      type: 2}
+    loop: 1
+    source: {fileID: 0}
+  - name: heroRun
+    clip: {fileID: 8300000, guid: 2d686ff9772b0054db442151dd80ab10, type: 3}
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 6108213264943422410, guid: 648e1e43c5756a943a8c0d81685cde9a,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: heroJump
+    clip: {fileID: 8300000, guid: 8b65f7abc7e07b543adbb51251961532, type: 3}
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 6108213264943422410, guid: 648e1e43c5756a943a8c0d81685cde9a,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: heroAttack
+    clip: {fileID: 8300000, guid: 3b968323d9463bd40aace27357766a85, type: 3}
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: -1679861505500136602, guid: 648e1e43c5756a943a8c0d81685cde9a,
+      type: 2}
+    loop: 0
+    source: {fileID: 0}
