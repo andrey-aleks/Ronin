@@ -1,5 +1,5 @@
 # Ronin
-By Andrey Alekseev
+2D Platformer on Android devices created by Andrey Alekseev
 
 Non-commercial personal project created in Unity.
 
